@@ -110,7 +110,7 @@ publishing {
         rteditor(MavenPublication) {
             groupId 'com.github.yaman'
             artifactId 'rteditor-toolbar'
-            version '0.0.1-SNAPSHOT'
+            version '0.0.2-SNAPSHOT'
             artifact(sourceJar)
             artifact("$buildDir/outputs/aar/rteditor-toolbar-release.aar")
         }
